@@ -6,3 +6,4 @@ packages/
 /lib/*.a
 pairing/
 build/
+xcuserdata/
