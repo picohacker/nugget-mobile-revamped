@@ -76,7 +76,3 @@ struct ToolsView: View {
         }
     }
 }
-
-#Preview {
-    ToolsView()
-}

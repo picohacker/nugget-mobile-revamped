@@ -31,7 +31,7 @@ struct HomeView: View {
                         // apply all tweaks button
                         HStack {
                             Rectangle()
-                                .fill(Color(.blue.opacity(0.1)))
+                                .fill(Color.blue.opacity(0.1))
                                 .frame(width: 330, height: 48)
                                 .mask { RoundedRectangle(cornerRadius: 12, style: .continuous) }
                                 .overlay {
@@ -47,7 +47,7 @@ struct HomeView: View {
                         // remove all tweaks button
                         HStack {
                             Rectangle()
-                                .fill(Color(.red.opacity(0.1)))
+                                .fill(Color.red.opacity(0.1))
                                 .frame(width: 330, height: 48)
                                 .mask { RoundedRectangle(cornerRadius: 12, style: .continuous) }
                                 .overlay {
@@ -66,7 +66,7 @@ struct HomeView: View {
                                 if pairingFile == nil {
                                 HStack {
                                     Rectangle()
-                                        .fill(Color(.green.opacity(0.1)))
+                                        .fill(Color.green.opacity(0.1))
                                         .frame(width: 330, height: 48)
                                         .mask { RoundedRectangle(cornerRadius: 12, style: .continuous) }
                                         .overlay {
@@ -236,8 +236,3 @@ struct HomeView: View {
         return body(cStrings)
     }
 }
-
-#Preview {
-    HomeView()
-}
-
