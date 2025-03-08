@@ -46,6 +46,7 @@
 		6F8594D22C99D6CC00F790D1 /* RevertTweaksPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8594D12C99D6CC00F790D1 /* RevertTweaksPopoverView.swift */; };
 		6F8594D42C9A006800F790D1 /* ModifyTweakViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8594D32C9A006800F790D1 /* ModifyTweakViewModifier.swift */; };
 		6F8594D92C9C9F6E00F790D1 /* HelperFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8594D82C9C9F6E00F790D1 /* HelperFuncs.swift */; };
+		AA71744B2D7C127C0080ACA8 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA71744A2D7C127C0080ACA8 /* CreditsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		6F8594D12C99D6CC00F790D1 /* RevertTweaksPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevertTweaksPopoverView.swift; sourceTree = "<group>"; };
 		6F8594D32C9A006800F790D1 /* ModifyTweakViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTweakViewModifier.swift; sourceTree = "<group>"; };
 		6F8594D82C9C9F6E00F790D1 /* HelperFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFuncs.swift; sourceTree = "<group>"; };
+		AA71744A2D7C127C0080ACA8 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				6F8593682C8F42A800F790D1 /* HomeView.swift */,
 				6F85936A2C8F42D100F790D1 /* ToolsView.swift */,
 				6F8593AB2C8F61FC00F790D1 /* LogView.swift */,
+				AA71744A2D7C127C0080ACA8 /* CreditsView.swift */,
 			);
 			path = NavigatorViews;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				6F85936B2C8F42D100F790D1 /* ToolsView.swift in Sources */,
 				6F8594A82C8FAC8B00F790D1 /* StatusSetter16_1.m in Sources */,
 				6F85937A2C8F4C7000F790D1 /* MobileGestaltManager.swift in Sources */,
+				AA71744B2D7C127C0080ACA8 /* CreditsView.swift in Sources */,
 				6F8594D92C9C9F6E00F790D1 /* HelperFuncs.swift in Sources */,
 				6F8593732C8F443A00F790D1 /* MaterialView.swift in Sources */,
 			);

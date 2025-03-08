@@ -18,6 +18,10 @@ struct RootView: View {
                 .tabItem {
                     Label("Tools", systemImage: "wrench.and.screwdriver.fill")
                 }
+            CreditsView()
+                .tabItem {
+                    Label("Credits", systemImage: "star.fill")
+                }
         }
     }
 }

@@ -26,14 +26,14 @@ struct ToolsView: View {
     }
     
     @State var tools: [ToolCategory] = [
-        .init(title: "Sparserestore Tweaks", pages: [
-            .init(page: .MobileGestalt, view: AnyView(GestaltView()), title: NSLocalizedString("Mobile Gestalt", comment: "Title of tool"), imageName: "platter.filled.top.and.arrow.up.iphone"),
-            .init(page: .FeatureFlags, view: AnyView(FeatureFlagsView()), title: NSLocalizedString("Feature Flags", comment: "Title of tool"), imageName: "flag", minVersion: Version(string: "18.0")),
-            .init(page: .Eligibility, view: AnyView(EligibilityView()), title: NSLocalizedString("Eligibility", comment: "Title of tool"), imageName: "mappin", minVersion: Version(string: "18.1")/*Version(string: "17.4")*/),
-            .init(page: .SpringBoard, view: AnyView(SpringboardTweaksView()), title: NSLocalizedString("SpringBoard", comment: "Title of tool"), imageName: "app.badge"),
-            .init(page: .Internal, view: AnyView(InternalOptionsView()), title: NSLocalizedString("Internal Options", comment: "Title of tool"), imageName: "internaldrive")
+        .init(title: "Exploit-Based Tweaks", pages: [
+            .init(page: .MobileGestalt, view: AnyView(GestaltView()), title: NSLocalizedString("MobileGestalt", comment: "Title of tool"), imageName: "platter.filled.top.and.arrow.up.iphone"),
+            .init(page: .FeatureFlags, view: AnyView(FeatureFlagsView()), title: NSLocalizedString("Feature Flags", comment: "Title of tool"), imageName: "checklist", minVersion: Version(string: "18.0")),
+            .init(page: .Eligibility, view: AnyView(EligibilityView()), title: NSLocalizedString("Apple Intelligence", comment: "Title of tool"), imageName: "apple.intelligence", minVersion: Version(string: "18.1")/*Version(string: "17.4")*/)
         ]),
-        .init(title: "Domain Restore Tweaks (requires Skip Setup)", pages: [
+        .init(title: "Basic Tweaks", pages: [
+            .init(page: .SpringBoard, view: AnyView(SpringboardTweaksView()), title: NSLocalizedString("SpringBoard", comment: "Title of tool"), imageName: "app.badge"),
+            .init(page: .Internal, view: AnyView(InternalOptionsView()), title: NSLocalizedString("Internal", comment: "Title of tool"), imageName: "internaldrive"),
             .init(page: .StatusBar, view: AnyView(StatusBarView()), title: NSLocalizedString("Status Bar", comment: "Title of tool"), imageName: "wifi")
         ])
         
@@ -75,4 +75,8 @@ struct ToolsView: View {
             .navigationTitle("Tools")
         }
     }
+}
+
+#Preview {
+    ToolsView()
 }
